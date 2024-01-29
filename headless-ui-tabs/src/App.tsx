@@ -1,5 +1,6 @@
 import { ITab } from './types/Tab'
 import CustomTab from './components/CustomTab'
+import People from './components/People'
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
     {
       title: "People",
       content: <>
-        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Friedrich-Johann-Justin-Bertuch_Mythical-Creature-Dragon_1806.jpg/1200px-Friedrich-Johann-Justin-Bertuch_Mythical-Creature-Dragon_1806.jpg' alt='Stuff' />
+       <People />
       </>,
       uid: "people",
     }
